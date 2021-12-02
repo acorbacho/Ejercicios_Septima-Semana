@@ -48,9 +48,9 @@ function mastermind(combinacion, intentos) {
          */
         var array_impresion = []
 
-        for (i = 0; i < array_combinacion.length; i++) {
+        for (let i = 0; i < array_combinacion.length; i++) {
 
-            for (j = 0; j < array_combinacion.length; j++) {
+            for (let j = 0; j < array_combinacion.length; j++) {
 
                 if (array_combinacion[i] == array_usuario[j] & i == j) {
                     array_impresion[j] = 'O'
