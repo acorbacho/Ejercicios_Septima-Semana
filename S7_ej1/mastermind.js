@@ -29,7 +29,7 @@ function mastermind(combinacion, intentos) {
     for (i = 0; i < array_combinacion.length; i++) {
         arrayEval[i] = 'O'
     }
-    salida('Intenta adivinar un número de 5 cifras.\nEscribe la combinación de 5 números a continuación.\nSi escribes más números, no se tendrán en cuenta.\nSi haciertas número y posición aparecerá como "O".\nSi el numero existe pero no en esa posición, aparecerá como "X".\nSi el número no existe en la combinación, aparecerá como "-".\n¡Suerte!')
+    salida('Intenta adivinar un número de 5 cifras.\nEscribe la combinación de 5 números a continuación.\nSi escribes más números, no se tendrán en cuenta.\nSi aciertas número y posición aparecerá como "O".\nSi el numero existe pero no en esa posición, aparecerá como "X".\nSi el número no existe en la combinación, aparecerá como "-".\n¡Suerte!')
 
     while (contador < intentosAux) {
         /**
